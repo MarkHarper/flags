@@ -92,3 +92,23 @@ function buildStar2 (x,y) {
 }
 
 buildStar2(34,106.25);
+
+/***************************************
+Italy
+***************************************/
+
+ctx.fillStyle = "HSLA(149, 100%, 30%, 1)";
+ctx.fillRect(0,450,187,299);
+ctx.beginPath();
+ctx.moveTo(0,449);
+ctx.lineTo(561,449);
+ctx.stroke();
+ctx.beginPath();
+ctx.moveTo(0,749);
+ctx.lineTo(561,749);
+ctx.stroke();
+
+
+
+ctx.fillStyle = "HSLA(225, 74%, 33%, 1)";
+ctx.fillRect(374,450,187,299);
